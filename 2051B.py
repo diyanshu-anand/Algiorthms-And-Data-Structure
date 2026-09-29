@@ -1,19 +1,21 @@
-# t = int(input())
-
-n,a,b,c = map(int,input().split(" "))
+t = int(input())
 
 
-s = a+b+c
+
+while(t):
+    
+    n,a,b,c = map(int,input().split(" "))
+
+    s = a+b+c
  
-v = n//s
+    v = n//s
 
-w = v*s
+    w = v*s
 
-d = v*3
+    d = v*3
 
-count = 0
-
-while(True):
+    count = 0
+    
     if n == w:
         count = 0
     elif n<=a+w:
@@ -22,9 +24,13 @@ while(True):
         count += 2
     else:
         count += 3
-    break
+    
+    print(count+d)
+    
+    t -= 1
 
-print(count+d)
+
+
 
     
         
