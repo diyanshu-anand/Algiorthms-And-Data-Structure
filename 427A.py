@@ -4,7 +4,6 @@ n = int(input())
 events = list(map(int, input().split()))
 
 p = 0
-
 u = 0
 
 for e in events:
