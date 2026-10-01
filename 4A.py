@@ -1,5 +1,6 @@
 w = int(input())
 
+
 if w > 0:
     if w == 2:
         print("NO")
