@@ -3,6 +3,7 @@
 n = int(input())
 events = list(map(str,input().strip()))
 
+
 room = [0]*10
 
 
