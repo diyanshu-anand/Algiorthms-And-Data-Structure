@@ -10,6 +10,7 @@ while(t):
    
     count0 = a.count(0)
     count1 = a.count(1)
+    
     # print(count0 , count1)
     if(count1 >= count0):
         print("Bessie")
